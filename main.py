@@ -29,8 +29,8 @@ def get_google_links(page=0):
 
 
 
-name = "Виталий"
-surname = "Смирнов"
+name = input("Введите имя")
+surname = input("Введите фамилию")
 PROFILE = {"name": name, "surname": surname}
 result = []
 page = 0
